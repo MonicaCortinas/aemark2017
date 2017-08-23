@@ -172,6 +172,7 @@ padding:4}
 
 .reveal ul {
   list-style-type: none;
+font-size:0.9em;
  }
 
 .reveal ul ul {
@@ -252,7 +253,6 @@ quote p:last-child {
 .reveal table {
   margin: auto;
 }
-
 .reveal table th {
     font-weight: bold;
     text-align: center;
@@ -260,62 +260,53 @@ quote p:last-child {
 
 .reveal table th, .reveal table td {
   text-align: center;
-  padding: 0.2em 0.5em 0.2em 0.5em;
-  border: 1px solid; }
+  padding:8px;
+vertical-align: middle}
+
+.reveal table tr:last-child td {
+  border-bottom: none; }
+
+.reveal table tr:last-child th {
+  border-bottom: none; }
 
 .reveal table.peque {
 border-collapse: collapse;
 font-size: 0.65em;
 padding: 5px;
-border: 2px solid rgba(52, 56, 56, 1);}
+border: 2px solid white;
+ border-bottom: 1px solid white;}
 
 .reveal table.peque th{
     background-color:rgba(22,147,165,1);
     color:white;
  }
 
-.reveal table td {
-  vertical-align: middle}
+.reveal table.muypeque {     
+  font-size: 0.60em;
+    padding: 0.02px;}
 
-.reveal table tr:last-child td {
-  border-bottom: none; }
-.reveal table tr:last-child th {
-  border-bottom: none; }
-
-.reveal table.bordeblanco td {
-    color:white;
-     padding: 15px;
-  	border: 2px solid white; }
-
-.reveal table.bordetotal td {
-    padding: 10px;
-  	border: 1px solid rgba(53,60,83,.9); }
-
-.reveal table.bordertotal tr:last-child td {
-  border: 1px solid rgba(53,60,83,.9); }
-.reveal table.bordertotal tr:last-child th {
-  border: 1px solid rgba(53,60,83,.9); }
-
-.reveal table.marron td {
-    background-color:rgba(101,86,67,.9); 
-    color:white;
-      padding: 10px;;
-  	border: 2px solid white; }
-
-.reveal table.ultrapeque {
-      
-  font-size: 0.45em;
-        padding: 0.02px;
-}
-
-.reveal table.pequebis {
-      
-  font-size: 0.6em;
-        padding: 0.02px;
-}
-.reveal table.ultrapeque2 p {
-  margin: 2px 0;
+.reveal table.muypeque p {
+  margin: 3px 0;
   line-height: 1; }
+
+.reveal table.muypeque th, .reveal table.muypeque td {
+    text-align: center;
+  padding: 3px;
+  border-bottom: 1px solid; }
+
+.reveal table.muypeque td.right {
+    text-align: left;
+  padding: 3px;
+  border-bottom: 1px solid; }
+
+
+
+.reveal table.ultrapeque {     
+  font-size: 0.50em;
+    padding: 0.02px;
+}
+
+
 .reveal table.ultrapeque p {
   margin: 2px 0;
   line-height: 1; }
@@ -332,16 +323,6 @@ border: 2px solid rgba(52, 56, 56, 1);}
 
 
 
-
-
-.reveal table.peque p {
-  margin: 2px 0;
-  line-height: 1; }
-
-.reveal table.peque td, .reveal table.peque th{
-  padding:8px;
-    border: 2px solid white;
-  border-bottom: 1px solid white;}
 
 
 /*********************************************
