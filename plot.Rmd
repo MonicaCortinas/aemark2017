@@ -56,12 +56,22 @@ print(levels(retail_df$segments_new))  ## This will show the levels of x are "Le
 ## To reorder the levels:
 library(waffle)
 library(extrafont)
-library(plotly)
+
 retail_df$segments_new= factor(retail_df$segments_new,levels(retail_df$segments_new)[c(2,3,1)])
 
 parts<- table(retail_df$segments_new)
-plot <- waffle(parts, rows= 7, keep=TRUE, colors=c("#969696","#1693a5", "#1879bf"), legend_pos="bottom")
+plot <- waffle(parts, rows= 7, keep=TRUE, colors=c("#969696","#1693a5", "#1879bf"), legend_pos="bottom",
+               use_glyph="shield")
 p<- plot + theme(legend.position="none")
-p <- ggplotly(plot)
+
+ggsave(file="Rplot.svg", plot=image, width=15, height=3)
+dev.off()
+png(filename="Std_PNG.png", 
+    units="in", 
+    width=5, 
+    height=4, 
+    pointsize=12, 
+    res=72)
+my_sc_plot(data)
 
 ```
