@@ -15,7 +15,7 @@
 
 body {
   background: white;
-  background-color:white; 
+  background-color:white;
   }
 
 .reveal {
@@ -32,7 +32,7 @@ body {
 .reveal .slides > section, .reveal .slides > section > section {
   line-height: 1.3;
   font-weight: inherit; }
-  
+
 .menu {position:absolute;top:7px;right:7px;width:175px}
 
 .titulo{position:absolute;bottom:3px;width:100%;text-align:center}
@@ -104,7 +104,7 @@ body {
     display:inline;
     color:  rgba(52, 56, 56, 1);
         font-weight:  bold;
-    font-size: 1.1em; 
+    font-size: 1.1em;
     padding: 4px;}
 
 .reveal hr {
@@ -124,12 +124,12 @@ body {
     color:rgba(52, 56, 56, 1)}
 
 .reveal span.enf {
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto';
     font-size:1em;
     color:rgba(22,147,165,1)}
 
 .reveal span.invenf {
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto';
     font-size:1em;
     background-color:rgba(22,147,165,1);
     color:white;
@@ -140,7 +140,7 @@ padding:4}
         color:rgba( 52, 56, 56, 1)}
 
 .reveal i.color {color:rgba(22,147,165,1)}
- 
+
  /*********************************************
  * OTHER
  *********************************************/
@@ -165,7 +165,7 @@ padding:4}
   margin: 0 0 0 1em; }
 
 .reveal ol {
- list-style-type: decimal; 
+ list-style-type: decimal;
  list-style-position: outside}
 
 .reveal ol li {
@@ -203,9 +203,9 @@ font-size:0.9em;
   color:#404040;
   background: rgba(222,222,222,.6);
   box-shadow: 0px 0px 5px rgba(222,222,222,.6); }
-  
-  
-.reveal blockquote p:first-child, .reveal 
+
+
+.reveal blockquote p:first-child, .reveal
 quote p:last-child {
   display: inline-block; }
 
@@ -262,7 +262,7 @@ quote p:last-child {
 .reveal table th, .reveal table td {
   text-align: center;
   padding:8px;
-vertical-align: middle}
+  vertical-align: middle}
 
 .reveal table tr:last-child td {
   border-bottom: none; }
@@ -271,18 +271,18 @@ vertical-align: middle}
   border-bottom: none; }
 
 .reveal table.peque {
-border-collapse: collapse;
-font-size: 0.65em;
-padding: 5px;
-border: 2px solid white;
- border-bottom: 1px solid white;}
+  border-collapse: collapse;
+  font-size: 0.65em;
+  padding: 5px;
+  border: 2px solid white;
+  border-bottom: 1px solid white;}
 
 .reveal table.peque th{
     background-color:rgba(22,147,165,1);
     color:white;
  }
 
-.reveal table.muypeque {     
+.reveal table.muypeque {
   font-size: 0.60em;
     padding: 0.02px;}
 
@@ -302,7 +302,7 @@ border: 2px solid white;
 
 
 
-.reveal table.ultrapeque {     
+.reveal table.ultrapeque {
   font-size: 0.50em;
     padding: 0.02px;
 }
@@ -313,14 +313,18 @@ border: 2px solid white;
   line-height: 1; }
 
 .reveal table.ultrapeque th, .reveal table.ultrapeque td {
-    text-align: center;
-  padding: 2px;
-  border-bottom: 1px solid; }
+    text-align: left;
+  padding: 4px;
+  border-bottom: 1px solid;
+  border: 2px solid white;
+  border-bottom: 1px solid white;}
 
 .reveal table.ultrapeque td.right {
     text-align: left;
   padding: 2px;
-  border-bottom: 1px solid; }
+  border-bottom: 1px solid;
+  border: 2px solid white;
+  border-bottom: 1px solid white;}
 
 
 
@@ -330,35 +334,35 @@ border: 2px solid white;
  * LINKS
  *********************************************/
 .reveal a {
-  color:#0569A0;
+  color:#FA6900;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #90AAD3;
+  color: #E0E4CC;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
-  color: #fff;
+  color: #F38630;
   background: #00003f}
 
 a {
- color:#0569A0;
+ color:#FA6900;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
  a:hover {
-  color: #90AAD3;
+  color: #E0E4CC;
   text-shadow: none;
   border: none; }
 
  .roll span:after {
-  color: #fff;
+  color: #F38630;
   background: #00003f;}
 
 /*********************************************
@@ -381,7 +385,7 @@ a {
   box-shadow: 0 0 10px rgba(97,102,104,.9); }
 
 .reveal section img.noborde {
- 
+
   background: rgba(255, 255, 255, 0);
   border: 0px solid #000;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0); }

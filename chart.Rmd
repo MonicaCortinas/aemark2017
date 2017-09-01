@@ -1,0 +1,67 @@
+---
+title: "fig1"
+author: "Monica Cortinas"
+date: "September 1, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r reading data, echo=FALSE, message=FALSE, warning=FALSE}
+setwd("D:/Dropbox/2_ Investigacion/1- Zara/0_ExploratoryAnalysis")
+retail_df <- read.csv(
+    "omni_dataframe.csv",
+    row.names = NULL,
+    stringsAsFactors = FALSE,
+    header = TRUE,
+    encoding = "UTF-8"
+)
+
+
+library("ggplot2")
+library("ggsci")
+library("gridExtra")
+library("cowplot")
+
+retail_df$segments_rec <- retail_df$segments
+retail_df$segments_rec[retail_df$segments == "Online customer_omnichannel user"] <-
+    "Online Omni"
+retail_df$segments_rec[retail_df$segments == "Omnichannel customer and user"] <-
+    "Online + Store"
+retail_df$segments_rec[retail_df$segments == "In-store customer_omnichannel user"] <-
+    "Store Omni"
+retail_df$segments_rec[retail_df$segments == "Online customer_monochannel user"] <-
+    "Online Mono"
+retail_df$segments_rec[retail_df$segments == "In-store customer_monochannel user"] <-
+    "Store Mono"
+retail_df$segments_rec <- factor(retail_df$segments_rec)
+
+retail_df$segments_new <- retail_df$segments
+retail_df$segments_new[retail_df$segments == "Online customer_omnichannel user"] <-
+    "Partially Omnichannel"
+retail_df$segments_new[retail_df$segments == "Omnichannel customer and user"] <-
+    "Complete Omnichannel"
+retail_df$segments_new[retail_df$segments == "In-store customer_omnichannel user"] <-
+    "Partially Omnichannel"
+retail_df$segments_new[retail_df$segments == "Online customer_monochannel user"] <-
+    "Monochannel Customer"
+retail_df$segments_new[retail_df$segments == "In-store customer_monochannel user"] <-
+    "Monochannel Customer"
+retail_df$segments_new <- factor(retail_df$segments_new)
+
+print(levels(retail_df$segments_new))  ## This will show the levels of x are "Levels: a b c d e"
+
+## To reorder the levels:
+library(waffle)
+library(extrafont)
+library(plotly)
+retail_df$segments_new= factor(retail_df$segments_new,levels(retail_df$segments_new)[c(2,3,1)])
+
+parts<- table(retail_df$segments_new)
+plot <- waffle(parts, rows= 7, keep=TRUE, colors=c("#969696","#1693a5", "#1879bf"), legend_pos="bottom")
+p<- plot + theme(legend.position="none")
+p <- ggplotly(plot)
+
+```
