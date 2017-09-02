@@ -60,10 +60,20 @@ library(extrafont)
 retail_df$segments_new= factor(retail_df$segments_new,levels(retail_df$segments_new)[c(2,3,1)])
 
 parts<- table(retail_df$segments_new)
-c <- c("17.3%"= 78 ,"23.3%"=105, "59.1%"=266)
+c <- c("Monochannel Customer"= 78 ,"Partially Omnichannel"=105, "Complete Omnichannel"=266)/4
 
-plot <- waffle(c, rows= 5, colors=c("#969696","#1693a5", "#1879bf"), legend_pos="bottom", size=0.5)
-ggsave(file="Rplot.svg", plot=plot, width=15, height=3)
+plot <- waffle(c, rows= 3, colors=c("#969696","#1693a5", "#1879bf"), legend_pos="bottom",
+                use_glyph="user", size=0.5)
+p1<- plot + theme(legend.position="none")
 
+ggsave(file="Rplot1.svg", plot=p1, width=15, height=3)
+dev.off()
+png(filename="Std_PNG.png", 
+    units="in", 
+    width=5, 
+    height=4, 
+    pointsize=12, 
+    res=72)
+my_sc_plot(data)
 
 ```
