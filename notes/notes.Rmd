@@ -162,4 +162,72 @@ Como resultado, definimos tres tipos de clientes:
 - clientes parcialmente omnicanal, que compran en un canal y utilizan los dos
 - clientes completamente omnicanal, que compran y utilizan ambos canales
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide13.png}
+\caption{Slide 13}
+\label{fig:method}
+\end{figure}
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide14.png}
+\caption{Slide 14}
+\label{fig:method}
+\end{figure}
+
+Como hemos mencionado, realizamos una aplicación empírica con el objetivo de mostrar la aplicabilidad del enfoque conceptual desarrollado segmentando la base de clientes de un detallista y explicando qué variables explican esta segmentación. Tomamos como población total los clientes de un detallista del sector de la moda rápida y realizamos una encuesta entre sus clientes en el último año mediante un panel online. En esta encuesta se recogen datos de comportamiento de compra, evaluación de los servicios tanto en la tienda como en la web, políticas de canal, actitudes y características del consumidor.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide15.png}
+\caption{Slide 15}
+\label{fig:method}
+\end{figure}
+
+Los resultados de la segmentación dividen la muestra en tres grupos, en el que el más numeroso es aquel de los clientes totalmente omnicanal (60%), seguido de los parcialmente omnicanal (23%) y de los monocanal. 
+
+Para explicar esta segmentación utilizamos un modelo logit bivariado en el que estimamos simultaneamente dos ecuaciones: la primera distintue a los clientes omnicanal de los monocanal en función de sus actitudes y características y la segunda divide a los clientes omnicanal en omnicanal completo y parcial en función de la evaluación de los servicios de distribución, las políticas de canal y las características
+
+Voy a pasar muy brevemente por los resultados. Solo señalar que los clientes omnicanal son más innovadores, compran más online, tienen mayor experiencia con la marca y son en maor medida jóvenes y mujeres.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide16.png}
+\caption{Slide 16}
+\label{fig:method}
+\end{figure}
+
+Con respecto al efecto de los servicios de distribución en el comportamiento omnicanal, los aspectos de servicio que determinan el comportamiento omnicanal total son la fiabilidad de la entrega en tiempo en la web (+) y en la tienda (-) y la información en ambos canales, 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide17.png}
+\caption{Slide 17}
+\label{fig:method}
+\end{figure}
+
+Así mismo, la política de privacidad y seguridad, la actitud innovadora y la experiencia con la marca favorecen el comportamiento omnicanal total. 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide18.png}
+\caption{Slide 18}
+\label{fig:method}
+\end{figure}
+
+Así mismo, la política de privacidad y seguridad, la actitud innovadora y la experiencia con la marca favorecen el comportamiento omnicanal total. 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide19.png}
+\caption{Slide 19}
+\label{fig:method}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide20.png}
+\caption{Slide 20}
+\label{fig:method}
+\end{figure}
+
+Como comentarios finales, destacar que hemos presentado una definición conceptual de comportamiento omnicanal que tiene consecuencias para la gestión y de investigación y que en la implementación empírica vemos commo la fiabilidad de la entrega en tiempo y la política de privacidad son factores claves de comportamiento omnicanal.
