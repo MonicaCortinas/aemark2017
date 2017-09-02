@@ -1,0 +1,165 @@
+---
+title: Presentación Aemark
+author: Mónica Cortiñas
+date: "07-09-2017"
+lang: es-ES
+keywords: Aemark, omnichannel
+bibliography: "D:/Dropbox/2_ Investigacion/4_Referencias/library.bib"
+fontsize: 11pt
+output: 
+  pdf_document: 
+    fig_caption: yes
+
+---
+Buenos días, mi nombre es Mónica Cortiñas y presento este trabajo elaborado junto con mis compañeras en la UPNA Raquel Chocarro y Margarita Elorz.
+
+Aunque la ponencia está escrita en castellano, dado que la sesión es mixta castellano-inglés, he preparado el material de la presentación en inglés. El trabajo lleva por título Comportamiento Omnicanal: Definiciones y covariables pero estamos abiertas a sugerencias al respecto.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide1.png}
+\caption{Slide 1}
+\label{fig:method}
+\end{figure}
+
+Con respecto a la motivación para el trabajo, en los últimos años hemos vivido una explosión en la utilización del término "omnicanal" que se aplica en múltiples contextos y situaciones muy distintas.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide2.png}
+\caption{Slide 2}
+\label{fig:method}
+\end{figure}
+
+Por ejemplo, si buscamos el término en google obtenemos más de 8 millones de resultados y lo mismo sucede en la literatura académica. En 2005 había 30 referencias que incluían el término, mientras que en 2016 son más de 1.600.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide3.png}
+\caption{Slide 3}
+\label{fig:method}
+\end{figure}
+
+Probablemente, debido a este rápido crecimiento, no existe una definición consensada de su significado:
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide4.png}
+\caption{Slide 4}
+\label{fig:method}
+\end{figure}
+
+¿Qué significa exactamente gestión omnicanal?¿Qué significa exactamente comportamiento multicanal?
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide5.png}
+\caption{Slide 5}
+\label{fig:method}
+\end{figure}
+
+Con respecto al significado de gestión multicanal, existe un acuerdo mayor. Una definición de consenso es la de Verhoef, Kannan e Inman en la introducción del Special Issue en el Journal of Retailing: se entiende como la gestión que optimiza la experiencia "sin costuras" en todos los puntos de contacto con el consumidor y los resultados de la empresa.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide6.png}
+\caption{Slide 6}
+\label{fig:method}
+\end{figure}
+
+Sin embargo, con respecto al comportamiento multicanal las cosas no están tan claras:
+
+- ¿Qué clientes son clientes omnicanal y cuales no?
+- ¿Qué tipo de clientes son los clientes omnicanal?
+
+En este trabajo pretendemos contribuir a resolver estas dos preguntas:
+
+1. Dando una definición no ambigua y aplicable a múltiples contextos de qué significa ser un cliente multicanal
+2. Porporcionando una segmentación basada en esta definición para la base de clientes de una empresa
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide7.png}
+\caption{Slide 7}
+\label{fig:method}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide8.png}
+\caption{Slide 8}
+\label{fig:method}
+\end{figure}
+
+Nuestro marco conceptual parte del punto de vista de una empresa que quiere conocer su base de clientes. Consideramos el caso de un fabricante o de un detallista que tiene solamente dos canales, el canal físico y un canal online, aunque el marco se puede extender de forma sencilla a casos con más canales.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide9.png}
+\caption{Slide 9}
+\label{fig:method}
+\end{figure}
+
+El elemento clave para nuestra conceptualización del comportamiento omnicanal es el concepto de "servicios de distribución". 
+
+La función básica de los canales de distribución es proporcionar estos servicios de distribución de forma que los consumidores puedan satisfacer su demanda de productos de forma eficiente.
+
+La existencia de múltiples canales para una misma empresa se justifica por la necesidad de satisfacer distintas demandas para estos servicios (ya sean demandas distintas para distintos segmentos o para momentos distintos de un único consumidor).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide9bis.png}
+\caption{Slide 9bis}
+\label{fig:method}
+\end{figure}
+
+Podemos clasificar los servicios en 5 grandes grupos:
+
+- localización de acceso al producto
+- información
+- amplitud y profundidad de surtido
+- fiabilidad de la entrega del producto en tiempo y forma deseada
+- ambiente
+
+Cada canal proporciona distintos niveles de cada uno de estos servicios de manera que pueden atender demandas diferentes
+
+#¿Cuál es la gran diferencia del canal online frente a otras configuraciones multicanal (por ejemplo catálogos u otros canales externos)? 
+
+La gran diferencia estriba en que las tecnologías de la información han permitido separar en tiempo y espacio la producción y el consumo de los servicios de distribución y esto implica que el consumidor puede **combinar** servicios de distintos canales.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide10.png}
+\caption{Slide 10}
+\label{fig:method}
+\end{figure}
+
+Por ejemplo:
+
+- un consumidor puede comprar un producto en la tienda tras ver la información sobre el producto en la página web. En este caso, utiliza todos los servicios de distribución de la tienda, además del servicio de información y ambiente la web
+- un consumidor compra un producto en la web y decide recogerlo en la tienda: utiliza los servicios de la web y el servicio de localización y ambiente de la tienda
+
+Podemos encontrar otros ejemplos, pero la idea importante es que es esta **separabilidad la que diferencia a los canales online del resto de canales y la que también permite pasar de este concepto de multicanal al concepto multicanal por la combinación de los servicios de distribución**.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide11.png}
+\caption{Slide 11}
+\label{fig:method}
+\end{figure}
+
+Para terminar con el marco conceptual y con nuestra definición de comportamiento omnicanal, necesitamos dos definiciones auxiliares. Entenderemos por cliente a cualquier cliente de una empresa que haya efectuado una compra en un determinado periodo de tiempo y por usuario aquellos individuos que han interactuado con alguno de los canales y, por tanto, han utilizado los servicios de distribución.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=70mm]{slides/slide12.png}
+\caption{Slide 12}
+\label{fig:method}
+\end{figure}
+
+Como resultado, definimos tres tipos de clientes:
+- clientes monocanal que solo han comprado y utilizado uno de los canales
+- clientes parcialmente omnicanal, que compran en un canal y utilizan los dos
+- clientes completamente omnicanal, que compran y utilizan ambos canales
+
+
