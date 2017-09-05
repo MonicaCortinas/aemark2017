@@ -62,7 +62,8 @@ retail_df$segments_new= factor(retail_df$segments_new,levels(retail_df$segments_
 parts<- table(retail_df$segments_new)
 c <- c("17.3%"= 78 ,"23.3%"=105, "59.1%"=266)
 
-plot <- waffle(c, rows= 5, colors=c("#969696","#1693a5", "#1879bf"), legend_pos="bottom", size=0.5)
+plot <- waffle(c, rows= 5, colors=c("#969696","#FBB829", "#1693a5"), legend_pos="bottom", size=0.5)
+setwd("D:/Dropbox/0_Slides/aemark2017/images")
 ggsave(file="Rplot.svg", plot=plot, width=15, height=3)
 
 
